@@ -1,0 +1,14 @@
+language: python
+python:
+    - 2.7
+script:
+    - echo "sample_java"
+    - curl -XPOST https://apibeta.shippable.com/projects/53bf82b455a71a2200f1a479/build?token=$SHIPPABLE_API_TOKEN
+    - echo "mysql"
+    - curl -XPOST https://apibeta.shippable.com/projects/53bf82b555a71a2200f1a481/build?token=$SHIPPABLE_API_TOKEN
+    - echo "mongodb"
+    - curl -XPOST https://apibeta.shippable.com/projects/53bf82b455a71a2200f1a47d/build?token=$SHIPPABLE_API_TOKEN
+    - echo "postgres"
+    - curl -XPOST https://apibeta.shippable.com/projects/53bf82b855a71a2200f1a485/build?token=$SHIPPABLE_API_TOKEN
+
+
