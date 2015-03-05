@@ -3,7 +3,7 @@ python:
     - 2.7
 script:
     - echo "sample_java"
-    - curl -XPOST https://apibeta.shippable.com/projects/53bf82b455a71a2200f1a479/build?token=$SHIPPABLE_API_TOKEN
+    - curl -XPOST https://apibeta.shippable.com/projects/54d9a87491426fd6a78cd55ebuild?token=b178b150-bd28-44a7-9138-2862c0d04dc3 
     - echo "mysql"
     - curl -XPOST https://apibeta.shippable.com/projects/53bf82b555a71a2200f1a481/build?token=$SHIPPABLE_API_TOKEN
     - echo "mongodb"
